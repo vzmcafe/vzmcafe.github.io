@@ -45,3 +45,9 @@ h3 {
 p {
   font-family: 'Quicksand'; Medium; sans-serif;
 }
+
+.recipe-image img {
+  height: 100px;
+  max-width: 100%;
+  max-height: 100%;
+}
