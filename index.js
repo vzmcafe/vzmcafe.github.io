@@ -5,3 +5,7 @@ $(".random-generator").click(function() {
   var random = recipes[Math.floor(Math.random()*recipes.length)];
   alert(random);
 });
+
+$('.nav-link dropdown-toggle').on('click', function () {
+  $('.dropdown-menu').dropdown('toggle')
+});
