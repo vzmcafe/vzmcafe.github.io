@@ -133,7 +133,7 @@ body, html {
   font-family: 'Quicksand';
 }
 
-@media(max-width: 500px) {
+/*@media(max-width: 500px) {
   .nav nav-tabs {
     font-size: 25px;
     background-color: black;
