@@ -2,24 +2,6 @@ body, html {
     height: 100%;
 }
 
-@media(max-width: 500px) {
-  .nav nav-tabs {
-    font-size: 50px;
-  }
-  h1 {
-    font-size: 100px;
-  }
-  h3 {
-    font-size: 50px;
-  }
-  p {
-    font-size: 40px;
-  }
-  .nav {
-    padding: 10px;
-  }
-}
-
 .nav {
   font-size: 20px;
   font-family: 'Quicksand'; Medium; sans-serif;
@@ -150,4 +132,23 @@ body, html {
   transform: translate(-50%, -50%);
   color: white;
   font-family: 'Quicksand';
+}
+
+@media(max-width: 500px) {
+  .nav nav-tabs {
+    font-size: 50px;
+    background-color: black;
+  }
+  h1 {
+    font-size: 100px;
+  }
+  h3 {
+    font-size: 50px;
+  }
+  p {
+    font-size: 40px;
+  }
+  .nav {
+    padding: 10px;
+  }
 }
