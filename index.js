@@ -1,5 +1,5 @@
 $('.random-generator').on('click', function() {
-  var recipes = ["#recipe1", "#recipe2", "#recipe3", "#recipe4"];
+  var recipes = ["Pasta bolognese", "Hamburger", "Soup", "A spoonful of Nutella"];
   var random = recipes[Math.floor(Math.random()*recipes.length)];
   alert(random);
 });
